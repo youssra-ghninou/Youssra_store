@@ -1,0 +1,132 @@
+body{
+    background-color: #F1F1F1;
+}
+
+.banner{
+    border-color: red;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:solid;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    position: relative;
+}
+.logo-title1{
+    color: #F9F9F9;
+    font-family: Segoe Script;
+    position: absolute;
+    left: 2rem;
+}
+.logo-title2{
+    color: #518FD8;
+    font-family: Segoe Script;
+    position: absolute;
+    left: 5rem;
+}
+.logo-image{
+    position: absolute;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.profile{
+    position: relative;
+
+}
+.img2{
+    position: absolute;
+    right: 1.25rem;
+    top: 0.5rem;
+}
+.icon-title{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+}
+.wallet{
+    font-family: Roboto;
+    color: black;
+    position: relative;
+}
+.cart{
+    font-family: Roboto;
+    color: black;
+}
+.img3{
+    position: absolute;
+    right: 1.5rem;
+    top: 0.75rem;
+}
+.search-title{
+    font-family: Roboto;
+    color: black;
+}
+#maRecherche{
+    height: 48px;
+    width: 800px;
+    border-radius: 8px 0px 0px 8px;
+    border-color: #518FD8;
+    border-width: 1px;
+    border-style: solid;
+    
+    
+}
+.search-image{
+
+    height:52px ;
+    width:54px ;
+    padding-top: 3px;
+    
+}
+.search-icon{
+    height:37.5px ;
+    width:37.5px ;
+    padding-top: 44px;
+    position: absolute;
+    right: 0.5rem;
+    top: -1.85rem;
+}
+.title-banner{
+    border-color: green;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:solid;
+}
+.best-selling-cards{
+    display: flex;
+    gap:30px;
+}
+.most-searched{
+    display: flex;
+    gap: 30px;
+}
+.description{
+    background-color:#FCFCFC;
+}
+.section2{
+    display:flex;
+    justify-content: space-around;
+    gap: 30px;
+    }
+.section-title{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    }
+.line{
+    height: 100%;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
