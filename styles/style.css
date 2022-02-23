@@ -1,12 +1,35 @@
 body{
     background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.main{
+    display: flex;
+    gap: 8rem;
+    
 }
 
+.filters{
+    background-color: #E9E9E9;
+}
 .banner{
-    border-color: red;
-    border-radius: 10px;
-    border-width: 3px;
-    border-style:solid;
+    position: relative;
+    background-color: #FAFAFA;
+}
+.title-banner{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    top: 0.75rem;
+    left: 1.25rem;
+}
+.image2{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
 }
 .logo{
     display: flex;
@@ -36,6 +59,7 @@ body{
 .buttons{
     display: flex;
     gap: 1rem;
+    
 }
 .profile{
     position: relative;
@@ -59,11 +83,12 @@ body{
 .cart{
     font-family: Roboto;
     color: black;
+    position: relative;
 }
 .img3{
     position: absolute;
-    right: 1.5rem;
-    top: 0.75rem;
+    right: 0.75rem;
+    top: 0.25rem;
 }
 .search-title{
     font-family: Roboto;
@@ -94,12 +119,7 @@ body{
     right: 0.5rem;
     top: -1.85rem;
 }
-.title-banner{
-    border-color: green;
-    border-radius: 10px;
-    border-width: 3px;
-    border-style:solid;
-}
+
 .best-selling-cards{
     display: flex;
     gap:30px;
@@ -115,11 +135,15 @@ body{
     display:flex;
     justify-content: space-around;
     gap: 30px;
+    
     }
 .section-title{
     display: flex;
     align-items:center;
     gap: 10px;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+   
     }
 .line{
     height: 100%;
@@ -127,6 +151,50 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    gap: 15rem;
+
     align-items: center;
+   
+}
+.header1{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    
+}
+.for-love{
+    display: flex;
+    position: relative;
+}
+.pub-title1{
+    font-family: Mixed;
+    color:#FFFFFF;
+    position: absolute;
+    top: 10rem;
+    left: 3rem;
+}
+.pub-title2{
+    font-family: Sacramento;
+    color:#FFFFFF;
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    font-size: 1.5em;
+    
+}
+.img-sec{
+   position: relative;
+}
+.img-sec2{
+    position: absolute;
+    top:0.75rem;
+    left: 0.75rem;
+ }
+ .cadre1{
+     display: flex;
+     gap: 2rem;
+ }
+ .cadre2{
+    display: flex;
+    gap: 2rem;
 }
