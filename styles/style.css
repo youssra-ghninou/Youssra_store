@@ -11,8 +11,77 @@ body{
 }
 
 .filters{
+    display: flex;
+    flex-direction: column;
     background-color: #E9E9E9;
+    row-gap: 0.5rem;
 }
+.filters-title{
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 10,85px;
+}
+.filters-buttons{
+    font-family: Roboto;
+    color:  #4F4F4F;
+    font-weight: 400;
+
+}
+#button-1{
+    background-color: black;
+    border-radius: 4px;
+}
+#button-2{
+    background-color: grey;
+    border-radius: 4px;
+}
+#button-3{
+    background-color: white;
+    border-radius: 4px;
+}
+#button-4{
+    background-color: brown;
+    border-radius: 4px;
+}
+#button-5{
+    background-color: #989048;
+    border-radius: 4px;
+}
+#button-6{
+    background-color: #C80000;
+    border-radius: 4px;
+}
+#button-7{
+    background-color: #FFA3D4;
+    border-radius: 4px;
+}
+#button-8{
+    background-color: #FA8111;
+    border-radius: 4px;
+}
+#button-9{
+    background-color: #FFE927;
+    border-radius: 4px;
+}
+#button-10{
+    background-color: #26DD4E;
+    border-radius: 4px;
+}
+#button-11{
+    background-color: #3988FF;
+    border-radius: 4px;
+}
+#button-12{
+    background-color: #9000E8;
+    border-radius: 4px;
+}
+.case1{
+    
+    width: 34px;
+    height: 21px;
+    border-radius: 4px;
+}
+
 .banner{
     position: relative;
     background-color: #FAFAFA;
