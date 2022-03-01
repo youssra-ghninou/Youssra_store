@@ -22,66 +22,103 @@ body{
     font-size: 10,85px;
 }
 .filters-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     font-family: Roboto;
     color:  #4F4F4F;
     font-weight: 400;
 
 }
+.colors{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 #button-1{
     background-color: black;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-2{
     background-color: grey;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-3{
     background-color: white;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-4{
     background-color: brown;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-5{
     background-color: #989048;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-6{
     background-color: #C80000;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-7{
     background-color: #FFA3D4;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-8{
     background-color: #FA8111;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-9{
     background-color: #FFE927;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-10{
     background-color: #26DD4E;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-11{
     background-color: #3988FF;
     border-radius: 4px;
+    border-color: transparent;
 }
 #button-12{
     background-color: #9000E8;
     border-radius: 4px;
+    border-color: transparent;
 }
-.case1{
-    
-    width: 34px;
-    height: 21px;
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.price-cases{
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+#pmin{
     border-radius: 4px;
+    height: 21px;
+    width: 34px;
+    background-color: #F1F1F1;
+    border-color: #4F4F4F;
 }
-
+#go{
+    border-radius: 4px;
+    height: 21px;
+    width: 30px;
+    background-color: white;
+    border-color: white;
+}
 .banner{
     position: relative;
     background-color: #FAFAFA;
